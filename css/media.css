@@ -1,0 +1,37 @@
+@media (max-width: 799px) {
+  .navigation {
+    justify-content: flex-end;
+  }
+  .navigation_menu-left {
+    display: none;
+  }
+
+  .imgbx {
+    right: 0;
+    width: 51vh; 
+  }
+  .search-menu-right {
+    display: none;
+  }
+  .cart-menu-right {
+    display: none;
+  }
+
+  .content {
+    top: 20vh; 
+  }
+}
+
+@media (max-width: 460px) {
+  .content {
+    display: none;
+  }
+  .imgbx {
+    right: 10vw;
+    width: 51vh; 
+  }
+
+  .media {
+    display: none;
+  }
+}
